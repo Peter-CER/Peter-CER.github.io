@@ -1,9 +1,8 @@
-
 body{
     background-color: rgb(255, 255, 247);
     color: #555;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 102%;
     line-height: 1.6em;
     margin: 0 auto;
 }
@@ -11,79 +10,67 @@ body{
     width: 80%;
     margin: 0px auto;
     overflow: hidden;
+    
 }
 
 #header{
     background-color: darkred;
     color: #fff;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+
 }
 
 .img1{
-    max-width:  60%;;
+    max-width:  38%;
     max-height:60%;
     float: right;
     vertical-align: top;
 }
 
 .text1{
-    width: 45%;
+
     display: block;
     margin-left: 12%;
     float: left;
 }
-.sec1{
-    display: inline;
 
-}
 .sec2{
-    margin-top: 15%;
     margin-left:12%;
 }
 
 .text2{
-    width: 58%;
+    
     display: block;
     text-align: left;
     display: block;
+
 
 }
 .img2{
-    max-width:50%;;
+    max-width:54%;;
     max-height:70%;
-
+    float: left;
+    vertical-align: top;
+    margin-right: 2.5%;
 }
 
 .sec3{
-    position: absolute;
-    text-align: right;
-    margin-top: 5%;
-    margin-left:10%;
-    float: right;
-    vertical-align: top;
+
+    margin-top: -28%;
+    margin-left:12%;
 }
 
 .text3{
-    width: 58%;
-    display: block;
-    text-align: left;
-    display: block;
 
+    float: right;
 }
 .img3{
-    max-width:60%;;
+    max-width:54%;;
     max-height:70%;
-
-
-
-}
-
-
-
-.Sbtn:hover{
-    background: coral;
-
+    float: left;
+    vertical-align: top;
+    margin-right: 2.5%;
 }
 
 
@@ -94,21 +81,16 @@ footer{
     bottom: 0;
     width: 100%;
     height: 9.5%;   /* Height of the footer */
-
 }
 
 
-#showcase{
-    background-position: center;
-    height: 670px;
-    width: 80%;
-    margin: 0px auto;
+.showcase{
+    margin-left: 10%;
+    margin-right: 15%;
 }
 
-#showcase h1{
-    font-size: 30px;
+.showcase h1{
     line-height: 1.6em;
-    z-index: unset;
     text-align: center;
 }
 
@@ -119,4 +101,10 @@ footer{
     text-align: center;
     padding: 20px;
     bottom: 0%;
+}
+
+.end{
+    margin-bottom: 7.5%;
+    text-align: right;
+    margin-right: 15%;
 }
