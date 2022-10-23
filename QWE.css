@@ -83,7 +83,7 @@ footer{
     margin-left: 20%;
     margin-right: 20%;
 }
-@media all and (max-width: 550px) and (min-width: 300px) {
+@media all and (max-width: 550px) and (min-width: 0px) {
     .showcase {
      margin-right: 5px;
      margin-left: 5px;
