@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SalonMandala</title>
+        <link rel="stylesheet" href="main copy.css">
+
+    </head>
+    <body onload="tid=setInterval('plusSlides(1)',5000);">
+        <div class="prop">
+    <div class="nav">
+                <div class="container">
+                    <a href="main.html">
+                        <img class="img1"src="logo3.png">
+                    </a>
+                    <a href="google.com">NAŚA PONUKA</a>
+                    <a href="https://www.mandalka.sk/">E-SHOP</a> 
+                    <a href="https://services.bookio.com/masazny-salon-mandala/widget">REZERVÁCIA</a> 
+                    <a href="google.com">KONTAKT</a> 
+                </div>
+                
+            </div>
+
+            
+            <div class="sec">
+                <div class="sec1">
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>                
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a> 
+                    
+                    <div class="txt">
+                        <h2>SALÓN MANDALA</h2>
+                    </div>
+
+                    <div class="mySlides">
+                        <img src="1.jpg" class="theimg">
+                    </div>
+                    
+                    <div class="mySlides">
+                        <img src="2.jpg" class="theimg">
+                    </div>
+                    
+                    <div class="mySlides">
+                        <img src="3.jpg" class="theimg">
+                    </div>
+                    
+                    <div class="mySlides">
+                        <img src="5.jpg" class="theimg">
+                    </div>
+                    
+                    <div class="mySlides">
+                        <img src="61.jpg" class="theimg">
+                    </div>
+                    <!-- Next and previous buttons -->
+
+
+                    <script>
+                        let slideIndex = 1;
+                        showSlides(slideIndex);
+
+                        // Next/previous controls
+                        function plusSlides(n) {
+                            showSlides(slideIndex += n);
+                            
+                        }
+                        function showSlides(n) {
+                            let i;
+                            let slides = document.getElementsByClassName("mySlides");
+                            if (n > slides.length) {slideIndex = 1}
+                            if (n < 1) {slideIndex = slides.length}
+                            for (i = 0; i < slides.length; i++) {
+                                slides[i].style.display = "none";
+                            }
+                            slides[slideIndex-1].style.display = "block";
+                        } 
+                    </script>
+                </div>
+
+                <h1>HEllo</h1>
+                <h1>HEllo</h1>
+
+                <h1>HEllo</h1>
+                <h1>HEllo</h1>
+                <h1>HEllo</h1>
+                <h1>HEllo</h1>
+                <h1>HEllo</h1>
+                <h1>HEllo</h1>
+                <h1>HEllo</h1>
+                <h1>HEllo</h1>
+                <h1>HEllo</h1>
+            </div> 
+
+        </div>
+        
+        
+
+
+
+        
+        <footer id="my-footer">
+            <p>Copyright &copy; Masážny salón Mandala © 2015</p>
+            <a href="https://goo.gl/maps/1Q9bJLSwqh23LYEDA">Adresa: Poľná 19 </a>
+            <p>Email: objednavky@salonmandala.sk</p>
+        </footer>
+        <a href="https://www.facebook.com/salonmandala.sk/photos">
+            <img width="50"class="fb" src="facebook-2.png">   
+        </a>
+
+    </body>
+</html>
