@@ -101,7 +101,7 @@ a:hover {
   float: left;
 }
 .prev{
-  left: 60px;
+  left: 5%;
 }
 .theimg{
   width: 90%;
@@ -121,7 +121,7 @@ a:hover {
 }
 /* Position the "next button" to the right */
 .next {
-  right: 60px;
+  right: 5%;
 }
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
@@ -160,5 +160,8 @@ a:hover {
   }
   .fb{
     right: 15%;
+  }
+  .prev{
+    left: 60px;
   }
 }
