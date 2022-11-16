@@ -7,11 +7,7 @@ html{
   background-repeat: no-repeat;
 }
 body{
-  background-image: url("back1.jpg");
-  background-position: center;
-  background-size: cover;
   height: 109vh;
-  background-repeat: no-repeat;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
