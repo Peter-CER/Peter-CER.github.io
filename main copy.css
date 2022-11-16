@@ -1,5 +1,10 @@
 html{
   background-color: rgb(182, 81, 22);
+  background-image: url("back1.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 body{
   background-image: url("back1.jpg");
