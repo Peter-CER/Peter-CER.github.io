@@ -7,8 +7,12 @@ body{
     margin: 0 auto;
     height: 100%;
     width: 100%;
-    overflow: hidden;
+
 }
+body::-webkit-scrollbar {
+    width: 0em;
+  }
+
 .container{
     width: 80%;
     margin: 0px auto;
