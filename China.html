@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>TOTALITA 20. STOROČIA</title>
+        <title>VAZKA REPORTS</title>
         <meta charset="UTF-8">
-
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <style>
 
             html {
                 height: 100%
+            }
+            h1{
+                font-size: 2.5em;
+                line-height: 90%;
             }
             body{
 
@@ -25,15 +29,14 @@
                 width: 90%;
                 margin: 0 auto;
                 position: relative;
-                top: 50px;
+
             }
             .container{
                 width: 80%;
                 margin: auto;
                 overflow: hidden;
                 text-align: center;
-
-                height: 65px;
+                height: 80px;
                 
             }
             ::-webkit-scrollbar {
@@ -48,10 +51,12 @@
                 }
 
                 /* Handle on hover */
-                ::-webkit-scrollbar-thumb:hover {
-                background: #555;
-                }
+            ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+            }
             .showcase{
+                position: relative;
+                top: 80px;
                 margin: auto;
                 width: 60%;
                 background-color: rgba(255, 255, 255, 0.2);
@@ -63,11 +68,14 @@
             a{
                 color: white;
             }
-            #header{
+            .nadpis{
+                text-align: center; height: 50%;
+            }
+            .header{
                 z-index:1;
                 background-color: rgb(32, 0, 0);
                 color: #fff;
-
+                height: 80px;
                 position: fixed;
                 top: 0%;
                 width: 100%;
@@ -75,37 +83,182 @@
             .sec1{
                 overflow: hidden;
             }
-                           @media all and (max-width: 1000px) and (min-width: 600px) {
+            .h{
+                position: absolute;
+            }
+
+            .left{
+                width: 58%; float: left; margin-right: 2%; text-align: left;
+            }
+            .right{
+                width: 40%; float: right; position: relative;
+            }
+            @media all and (max-width: 1400px) and (min-width: 1251px) {
+                .i{
+                    float: right;
+                }
+                .container{
+                    width: 70%;
+                }
+                .showcase{
+                    width: 70%;
+                }
+            }
+            @media all and (max-width: 1250px) and (min-width: 1001px) {
+                .i{
+                    float: right;
+                }
+                .container{
+                    width: 70%;
+                }
+                .showcase{
+                    width: 70%;
+                }
+                .left{
+                width: 100%;
+                margin-right: 0px;
+                float: none;
+                }
+                .right{
+                    width: 100%;
+                    margin-right: 0px;
+                    float: none;
+                }
+            }
+            @media all and (max-width: 1000px) and (min-width: 808px) {
 
                 .showcase{
                     width: 80%;
                 }
-            }
-            @media all and (max-width: 1000px) and (min-width: 600px) {
+                .i{
+                    float: right;
+                }
+                .left{
+                width: 100%;
+                margin-right: 0px;
+                float: none;
+                }
+                .right{
+                    width: 100%;
+                    margin-right: 0px;
+                    float: none;
+                }
+                }
+                @media all and (max-width: 807px) and (min-width: 761px) {
 
                 .showcase{
+                    width: 80%;
+                }
+                .i{
+                    float: right;
+                }
+                .left{
+                width: 100%;
+                margin-right: 0px;
+                float: none;
+                }
+                .right{
                     width: 100%;
-                    background-color: transparent;
-    
+                    margin-right: 0px;
+                    float: none;
+                }
+                }
+            @media all and (max-width: 760px) and (min-width: 701px) {
+                .showcase{
+                    width: 80%;
+                }
+                .i{
+                    display: none;
+                }
+                    .left{
+                    width: 100%;
+                    margin-right: 0px;
+                    float: none;
+                    }
+                    .right{
+                        width: 100%;
+                        margin-right: 0px;
+                        float: none;
+                    }
+                }
+
+            @media all and (max-width: 700px) and (min-width: 481px) {
+                .showcase{
+                    background: transparent;
+                    width: 100%;
+                }
+                .left{
+                    width: 100%;
+                    margin-right: 0px;
+                    float: none;
+                }
+                .right{
+                    width: 100%;
+                    margin-right: 0px;
+                    float: none;
+                }
+                .i{
+                    display: none;
+                }
+                .container{
+                    width: 100%;
+                    text-align: center;
+                }
+                .h{
+                    position: relative;
+                    margin: 0 auto;
+                } 
+             }
+            @media all and (max-width: 480px) and (min-width: 1px) {
+                    .showcase{
+                        background: transparent;
+                        width: 100%;
+                    }
+                    h1{
+                        font-size: ;
+                    }
+                    .left{
+                        width: 100%;
+                        margin-right: 0px;
+                        float: none;
+                    }
+                    .right{
+                        width: 100%;
+                        margin-right: 0px;
+                        float: none;
+                    }
+                    .i{
+                        display: none;
+                    }
+                    .container{
+                        width: 100%;
+                        text-align: center;
+                    }
+                    .h{
+                        position: relative;
+                        margin: 0 auto;
+                    } 
             }
+
+
         </style>
     </head>
     <body>
-        <header id="header">
+        <header class="header">
             <div class="container">
                 <div class="h">
-                    <h1 style="float: left;">TOTALITA 20. STOROČIA</h1>
-                    <h1 style="float: right; color: rgb(32, 0, 0);">TOTALITA 20. STOROČIA</h1>
+                    <h1 >TOTALITA 20. STOROČIA</h1>
+
                 </div>
                <div class="i">
-                    <img src="flag.png" height="75px" ">
+                    <img src="flag.png" height="80px" ">
                </div>
             </div>      
         </header>
         <div class="showcase" >
             <div class="back">
                 <div class="sec1">
-                    <div class="container">
+                    <div class="nadpis">
                         <h1 style="text-align: center; height: 50%;">Čínska ľudová republika</h1>
                     </div> 
                     <p>
@@ -116,7 +269,7 @@
                 <hr>
                 <div class="sec1">
                     <h2>Mao Ce-tung</h2>
-                    <div style="width: 58%; float: left; margin-right: 2%;">
+                    <div class="left">
                         <p>Mao Ce-tung, známy aj ako predseda Mao, bol čínsky komunistický revolucionár a politik, ktorý viedol Čínsku ľudovú republiku od jej založenia v roku 1949 až do svojej smrti v roku 1976. Je považovaný za jednu z najdôležitejších postáv modernej čínskej histórie.</p>
                         <p>Mao sa narodil v roku 1893 v provincii Hunan v Číne. Získal tradičné čínske vzdelanie, ale neskôr bol rozčarovaný z konfucianizmu a obrátil sa k marxistickej ideológii. V 20. rokoch sa stal jedným zo zakladajúcich členov Čínskej komunistickej strany (ČKS) a zohral kľúčovú úlohu pri vzniku Čínskej ľudovej republiky v roku 1949.</p>
                         <p>Ako vodca komunistickej strany Mao zaviedol množstvo politík a kampaní, ktoré mali pre čínsky ľud ďalekosiahle dôsledky. Jednou z jeho najvýznamnejších kampaní bol Veľký skok vpred, ekonomická a sociálna kampaň spustená v roku 1958 s cieľom transformovať Čínu na moderný industrializovaný národ. Kampaň však vyústila do rozsiahleho hladomoru a smrti, pričom počet obetí sa odhaduje na 15 až 45 miliónov ľudí.</p>
@@ -125,14 +278,14 @@
 
                     
                     </div>
-                    <div style="width: 40%; float: right; position: relative;">
+                    <div class="right">
                         <img src="Mao.jpg" width="100%" >
                     </div>
                 </div>
                 <hr>
                 <div class="sec1">
                     <h2>Veľký skok vpred</h2>
-                    <div style="width: 58%; float: left; margin-right: 2%; text-align: left;">
+                    <div class="left">
                         <p>Veľký skok vpred bola socio-ekonomická kampaň, ktorá mala za účel premeniť Čínu z agrárnej spoločnosti na industrializovaný štát. Bol v účinnosti od 1958-1962 a vyžiadal si cez 30 miliónov obetí
                         </p>
                         <p>
@@ -144,7 +297,7 @@
                             <img src="skok4.jpg" style="margin: 0 auto;" width="100%" >
                         </div>                        
                     </div>
-                    <div style="width: 40%;  float: right; position: relative;">
+                    <div class="right">
                         <img src="skok.jpg" width="100%" >
                         <img src="skok2.jpg" width="100%" >
                     </div>
@@ -154,7 +307,7 @@
 
                 <div class="sec1">
                     <h2>Kultúrna Revolúcia</h2>
-                    <div style="width: 58%;  float: left; margin-right: 2%;">
+                    <div class="left">
                         <p>Po neúspechu „Veľkého skoku vpred“ musel Mao obviniť niekoho za zlyhanie jeho kampane, a on obvinil práve buržoáziu a politikov ktorý podľa neho stoja za byrokratickou degeneráciu komunistickej strany. S týmto vyhlásil kultúrnu revolúciu ktorá mala za účel zbaviť čínsku spoločnosť kapitalistických a tradičných prvkov.
                         </p>
                         <p>
@@ -166,7 +319,7 @@
                             
             
                     </div>
-                    <div style="width: 40%; float: right; position: relative;">
+                    <div class="right">
                         <img src="cult.png" width="100%" >
                         <img src="cult2.jpg" width="100%" >
                     </div>
@@ -175,7 +328,7 @@
                 <hr> 
                 <div class="sec1">
                     <h2>Život počas Maovho režimu</h2>
-                    <div style="width: 58%;  float: left; margin-right: 2%;">
+                    <div class="left">
                         <p>Život počas Maovho režimu bol poznačený výraznými politickými prevratmi a spoločenskými zmenami. Komunistická strana pod Maovým vedením zaviedla sériu politík a kampaní zameraných na transformáciu čínskej spoločnosti, čo malo pre čínsky ľud ďalekosiahle dôsledky.
                         </p>
                         <p>
@@ -187,7 +340,7 @@
                             
             
                     </div>
-                    <div style="width: 40%; float: right; position: relative;">
+                    <div class="right">
                         <img src="cult.png" width="100%" >
                         <img src="cult2.jpg" width="100%" >
                     </div>
